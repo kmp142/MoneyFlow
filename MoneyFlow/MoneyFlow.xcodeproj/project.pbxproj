@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */; };
+		AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */; };
+		AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0622BAFB5A100B8009C /* ViewController.swift */; };
+		AAEAF0692BAFB5A100B8009C /* MoneyFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0672BAFB5A100B8009C /* MoneyFlow.xcdatamodeld */; };
+		AAEAF06B2BAFB5A200B8009C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */; };
+		AAEAF06E2BAFB5A200B8009C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */; };
+		AAEAF0792BAFB5A200B8009C /* MoneyFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */; };
+		AAEAF0832BAFB5A200B8009C /* MoneyFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */; };
+		AAEAF0852BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */; };
+		AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0912BAFB60B00B8009C /* TabBarController.swift */; };
+		AAEAF0972BAFB7EB00B8009C /* IlbmirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0962BAFB7EB00B8009C /* IlbmirViewController.swift */; };
+		AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */; };
+		AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAEAF0752BAFB5A200B8009C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEAF0532BAFB5A100B8009C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEAF05A2BAFB5A100B8009C;
+			remoteInfo = MoneyFlow;
+		};
+		AAEAF07F2BAFB5A200B8009C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEAF0532BAFB5A100B8009C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEAF05A2BAFB5A100B8009C;
+			remoteInfo = MoneyFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAEAF0622BAFB5A100B8009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAEAF0682BAFB5A100B8009C /* MoneyFlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyFlow.xcdatamodel; sourceTree = "<group>"; };
+		AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAEAF06D2BAFB5A200B8009C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAEAF06F2BAFB5A200B8009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEAF0742BAFB5A200B8009C /* MoneyFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowTests.swift; sourceTree = "<group>"; };
+		AAEAF07E2BAFB5A200B8009C /* MoneyFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowUITests.swift; sourceTree = "<group>"; };
+		AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAEAF0912BAFB60B00B8009C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AAEAF0962BAFB7EB00B8009C /* IlbmirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlbmirViewController.swift; sourceTree = "<group>"; };
+		AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuslanViewController.swift; sourceTree = "<group>"; };
+		AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmitryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEAF0582BAFB5A100B8009C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF0712BAFB5A200B8009C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF07B2BAFB5A200B8009C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAEAF0522BAFB5A100B8009C = {
+			isa = PBXGroup;
+			children = (
+				AAEAF05D2BAFB5A100B8009C /* MoneyFlow */,
+				AAEAF0772BAFB5A200B8009C /* MoneyFlowTests */,
+				AAEAF0812BAFB5A200B8009C /* MoneyFlowUITests */,
+				AAEAF05C2BAFB5A100B8009C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEAF05C2BAFB5A100B8009C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */,
+				AAEAF0742BAFB5A200B8009C /* MoneyFlowTests.xctest */,
+				AAEAF07E2BAFB5A200B8009C /* MoneyFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEAF05D2BAFB5A100B8009C /* MoneyFlow */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0952BAFB6C700B8009C /* Ilbmir */,
+				AAEAF0942BAFB68D00B8009C /* Ruslan */,
+				AAEAF0932BAFB68800B8009C /* Dmitry */,
+				AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */,
+				AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */,
+				AAEAF0622BAFB5A100B8009C /* ViewController.swift */,
+				AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */,
+				AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */,
+				AAEAF06F2BAFB5A200B8009C /* Info.plist */,
+				AAEAF0672BAFB5A100B8009C /* MoneyFlow.xcdatamodeld */,
+				AAEAF0912BAFB60B00B8009C /* TabBarController.swift */,
+			);
+			path = MoneyFlow;
+			sourceTree = "<group>";
+		};
+		AAEAF0772BAFB5A200B8009C /* MoneyFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */,
+			);
+			path = MoneyFlowTests;
+			sourceTree = "<group>";
+		};
+		AAEAF0812BAFB5A200B8009C /* MoneyFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */,
+				AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */,
+			);
+			path = MoneyFlowUITests;
+			sourceTree = "<group>";
+		};
+		AAEAF0932BAFB68800B8009C /* Dmitry */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */,
+			);
+			path = Dmitry;
+			sourceTree = "<group>";
+		};
+		AAEAF0942BAFB68D00B8009C /* Ruslan */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */,
+			);
+			path = Ruslan;
+			sourceTree = "<group>";
+		};
+		AAEAF0952BAFB6C700B8009C /* Ilbmir */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0962BAFB7EB00B8009C /* IlbmirViewController.swift */,
+			);
+			path = Ilbmir;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEAF05A2BAFB5A100B8009C /* MoneyFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEAF0882BAFB5A200B8009C /* Build configuration list for PBXNativeTarget "MoneyFlow" */;
+			buildPhases = (
+				AAEAF0572BAFB5A100B8009C /* Sources */,
+				AAEAF0582BAFB5A100B8009C /* Frameworks */,
+				AAEAF0592BAFB5A100B8009C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyFlow;
+			productName = MoneyFlow;
+			productReference = AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAEAF0732BAFB5A200B8009C /* MoneyFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEAF08B2BAFB5A200B8009C /* Build configuration list for PBXNativeTarget "MoneyFlowTests" */;
+			buildPhases = (
+				AAEAF0702BAFB5A200B8009C /* Sources */,
+				AAEAF0712BAFB5A200B8009C /* Frameworks */,
+				AAEAF0722BAFB5A200B8009C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEAF0762BAFB5A200B8009C /* PBXTargetDependency */,
+			);
+			name = MoneyFlowTests;
+			productName = MoneyFlowTests;
+			productReference = AAEAF0742BAFB5A200B8009C /* MoneyFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAEAF07D2BAFB5A200B8009C /* MoneyFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEAF08E2BAFB5A200B8009C /* Build configuration list for PBXNativeTarget "MoneyFlowUITests" */;
+			buildPhases = (
+				AAEAF07A2BAFB5A200B8009C /* Sources */,
+				AAEAF07B2BAFB5A200B8009C /* Frameworks */,
+				AAEAF07C2BAFB5A200B8009C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEAF0802BAFB5A200B8009C /* PBXTargetDependency */,
+			);
+			name = MoneyFlowUITests;
+			productName = MoneyFlowUITests;
+			productReference = AAEAF07E2BAFB5A200B8009C /* MoneyFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEAF0532BAFB5A100B8009C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AAEAF05A2BAFB5A100B8009C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AAEAF0732BAFB5A200B8009C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AAEAF05A2BAFB5A100B8009C;
+					};
+					AAEAF07D2BAFB5A200B8009C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AAEAF05A2BAFB5A100B8009C;
+					};
+				};
+			};
+			buildConfigurationList = AAEAF0562BAFB5A100B8009C /* Build configuration list for PBXProject "MoneyFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAEAF0522BAFB5A100B8009C;
+			productRefGroup = AAEAF05C2BAFB5A100B8009C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEAF05A2BAFB5A100B8009C /* MoneyFlow */,
+				AAEAF0732BAFB5A200B8009C /* MoneyFlowTests */,
+				AAEAF07D2BAFB5A200B8009C /* MoneyFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEAF0592BAFB5A100B8009C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEAF06E2BAFB5A200B8009C /* LaunchScreen.storyboard in Resources */,
+				AAEAF06B2BAFB5A200B8009C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF0722BAFB5A200B8009C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF07C2BAFB5A200B8009C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEAF0572BAFB5A100B8009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEAF0972BAFB7EB00B8009C /* IlbmirViewController.swift in Sources */,
+				AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */,
+				AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */,
+				AAEAF0692BAFB5A100B8009C /* MoneyFlow.xcdatamodeld in Sources */,
+				AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */,
+				AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */,
+				AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */,
+				AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF0702BAFB5A200B8009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEAF0792BAFB5A200B8009C /* MoneyFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEAF07A2BAFB5A200B8009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEAF0832BAFB5A200B8009C /* MoneyFlowUITests.swift in Sources */,
+				AAEAF0852BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAEAF0762BAFB5A200B8009C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEAF05A2BAFB5A100B8009C /* MoneyFlow */;
+			targetProxy = AAEAF0752BAFB5A200B8009C /* PBXContainerItemProxy */;
+		};
+		AAEAF0802BAFB5A200B8009C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEAF05A2BAFB5A100B8009C /* MoneyFlow */;
+			targetProxy = AAEAF07F2BAFB5A200B8009C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEAF06D2BAFB5A200B8009C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAEAF0862BAFB5A200B8009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAEAF0872BAFB5A200B8009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEAF0892BAFB5A200B8009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAEAF08A2BAFB5A200B8009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAEAF08C2BAFB5A200B8009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyFlow";
+			};
+			name = Debug;
+		};
+		AAEAF08D2BAFB5A200B8009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyFlow";
+			};
+			name = Release;
+		};
+		AAEAF08F2BAFB5A200B8009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyFlow;
+			};
+			name = Debug;
+		};
+		AAEAF0902BAFB5A200B8009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEAF0562BAFB5A100B8009C /* Build configuration list for PBXProject "MoneyFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEAF0862BAFB5A200B8009C /* Debug */,
+				AAEAF0872BAFB5A200B8009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEAF0882BAFB5A200B8009C /* Build configuration list for PBXNativeTarget "MoneyFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEAF0892BAFB5A200B8009C /* Debug */,
+				AAEAF08A2BAFB5A200B8009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEAF08B2BAFB5A200B8009C /* Build configuration list for PBXNativeTarget "MoneyFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEAF08C2BAFB5A200B8009C /* Debug */,
+				AAEAF08D2BAFB5A200B8009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEAF08E2BAFB5A200B8009C /* Build configuration list for PBXNativeTarget "MoneyFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEAF08F2BAFB5A200B8009C /* Debug */,
+				AAEAF0902BAFB5A200B8009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAEAF0672BAFB5A100B8009C /* MoneyFlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAEAF0682BAFB5A100B8009C /* MoneyFlow.xcdatamodel */,
+			);
+			currentVersion = AAEAF0682BAFB5A100B8009C /* MoneyFlow.xcdatamodel */;
+			path = MoneyFlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAEAF0532BAFB5A100B8009C /* Project object */;
+}
