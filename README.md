@@ -1,2 +1,6 @@
 # MoneyFlow
-ITIS iOS-Course project for hometasks
+    Алексеев Д.С. 
+Generic func (Mock) Dmitry->Models->Category
+Patterns - Dmitry folder 
+DM - Added SnapKit
+
