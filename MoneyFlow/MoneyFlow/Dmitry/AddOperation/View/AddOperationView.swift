@@ -31,6 +31,7 @@ class AddOperationView: UIView {
         tf.addTarget(self, action: #selector(quantityTFChanged), for: .editingChanged)
         tf.font = UIFont.systemFont(ofSize: 16)
         tf.keyboardType = .numberPad
+        tf.accessibilityIdentifier = "quantityTextField"
         return tf
     }()
 
@@ -66,7 +67,7 @@ class AddOperationView: UIView {
 
     lazy var scrollView = UIScrollView()
 
-    weak var controller: DmitryViewController?
+    weak var controller: AddOperationVC?
 
     lazy var tapGesture = UITapGestureRecognizer(target: self, action: #selector(inputAreaTapped))
 
@@ -98,8 +99,8 @@ class AddOperationView: UIView {
     }
 
     func setController(controller: UIViewController) {
-        if controller is DmitryViewController {
-            self.controller = (controller as! DmitryViewController)
+        if controller is AddOperationVC {
+            self.controller = (controller as! AddOperationVC)
         }
     }
 

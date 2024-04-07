@@ -12,6 +12,7 @@ class TabBarController: UITabBarController {
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nil, bundle: nil)
+
     }
 
     required init?(coder: NSCoder) {
@@ -19,6 +20,7 @@ class TabBarController: UITabBarController {
     }
 
     func configureTabBar(viewControllers: UIViewController...) {
+        delegate = self
         setViewControllers(viewControllers, animated: true)
 
         let tabBarAppearance = UITabBarAppearance()
@@ -31,4 +33,18 @@ class TabBarController: UITabBarController {
         items[1].image = UIImage(systemName: "plus.app.fill")
         items[2].image = UIImage(systemName: "car")
     }
+}
+
+extension TabBarController: UITabBarControllerDelegate {
+
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        if viewController is AddOperationVC {
+            let addOperationVM = AddOperationViewModel(storage: WalletOperationsStorage.shared)
+            let addOperationVC = AddOperationVC(viewModel: addOperationVM)
+            tabBarController.present(addOperationVC, animated: true)
+            return false
+        }
+        return true
+    }
+
 }

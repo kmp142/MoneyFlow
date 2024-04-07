@@ -26,6 +26,7 @@ class CategoriesView: UIView, UITableViewDelegate {
 
     override init(frame: CGRect) {
         super.init(frame: .zero)
+        backgroundColor = .white
         addSubview(tableView)
         setupConstraints()
         setupDataSource()
@@ -38,10 +39,10 @@ class CategoriesView: UIView, UITableViewDelegate {
     private func setupDataSource() {
         dataSource = UITableViewDiffableDataSource<TableViewSection, Category>(tableView: tableView, cellProvider: {tableView, indexPath, itemIdentifier in
             let cell = tableView.dequeueReusableCell(withIdentifier: CategoryCell.reuseIdentifire, for: indexPath) as! CategoryCell
-            cell.configureCell(category: Category(name: "Дом", image: UIImage(systemName: "map")!, subCategories: []))
+            cell.configureCell(category: Category(name: "Дом", image: UIImage(systemName: "map")!, subcategories: []))
             return cell
         })
-        updateDataSource(items: [Category(name: "Дом", image: UIImage(systemName: "map")!, subCategories: [])])
+        updateDataSource(items: [Category(name: "Дом", image: UIImage(systemName: "map")!, subcategories: [])])
     }
 
     func updateDataSource(items: [Category]) {
@@ -57,7 +58,6 @@ class CategoriesView: UIView, UITableViewDelegate {
             make.left.right.bottom.equalToSuperview()
         }
     }
-
 }
 
 extension CategoriesView: UITableViewDataSource {
@@ -68,6 +68,4 @@ extension CategoriesView: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         UITableViewCell()
     }
-
-
 }

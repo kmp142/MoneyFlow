@@ -8,25 +8,19 @@
 import Foundation
 import UIKit
 
-class CategoriesViewModel {
+protocol CategoriesViewModelInterface {
+    func addCategories(categories: [Category])
+}
 
-    private weak var view: CategoriesVC?
+class CategoriesViewModel: CategoriesViewModelInterface {
 
-    private var categories: [Category] {
-        willSet {
-            view?.updateDataSource(items: newValue)
-        }
+    @Published var categories: [Category] = []
+
+    init(categories: [Category]) {
+        self.categories = categories
     }
 
-    init(view: CategoriesVC? = nil, categories: [Category]) {
-        self.view = view
-        self.categories = categories
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            self.categories = [
-                Category(name: "gfbe", image: UIImage(systemName: "map")!, subCategories: []),
-                Category(name: "sdsf", image: UIImage(systemName: "map")!, subCategories: []),
-                Category(name: "Рестораны", image: UIImage(systemName: "map")!, subCategories: []),
-            ]
-        }
+    func addCategories(categories: [Category]) {
+        self.categories += categories
     }
 }

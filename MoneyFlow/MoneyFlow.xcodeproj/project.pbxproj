@@ -12,10 +12,24 @@
 		9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A722BB0AA260031C3A2 /* Expenses.swift */; };
 		9F0E4A762BB0F0160031C3A2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F0E4A752BB0F0160031C3A2 /* Kingfisher */; };
 		9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */; };
+		AAD8E4402BC1FB7C0015BE2E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E42F2BC1FB7C0015BE2E /* Category.swift */; };
+		AAD8E4412BC1FB7C0015BE2E /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4302BC1FB7C0015BE2E /* OperationTypes.swift */; };
+		AAD8E4422BC1FB7C0015BE2E /* CategoriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4322BC1FB7C0015BE2E /* CategoriesManager.swift */; };
+		AAD8E4432BC1FB7C0015BE2E /* AddOperationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4342BC1FB7C0015BE2E /* AddOperationViewModel.swift */; };
+		AAD8E4442BC1FB7C0015BE2E /* AddOperationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4362BC1FB7C0015BE2E /* AddOperationVC.swift */; };
+		AAD8E4452BC1FB7C0015BE2E /* AddOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4372BC1FB7C0015BE2E /* AddOperationView.swift */; };
+		AAD8E4462BC1FB7C0015BE2E /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43A2BC1FB7C0015BE2E /* CategoriesViewModel.swift */; };
+		AAD8E4472BC1FB7C0015BE2E /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43C2BC1FB7C0015BE2E /* CategoryCell.swift */; };
+		AAD8E4482BC1FB7C0015BE2E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43E2BC1FB7C0015BE2E /* CategoriesView.swift */; };
+		AAD8E4492BC1FB7C0015BE2E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43F2BC1FB7C0015BE2E /* CategoriesVC.swift */; };
+		AAD8E44C2BC1FD8F0015BE2E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AAD8E44B2BC1FD8F0015BE2E /* SnapKit */; };
+		AAD8E4512BC312510015BE2E /* WalletOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4502BC312510015BE2E /* WalletOperation.swift */; };
+		AAD8E4572BC31CAC0015BE2E /* OperationsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4562BC31CAC0015BE2E /* OperationsStorage.swift */; };
+		AAD8E45A2BC32D4A0015BE2E /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = AAD8E4592BC32D4A0015BE2E /* SnapshotTesting */; };
+		AAD8E45C2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E45B2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift */; };
 		AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */; };
 		AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */; };
 		AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0622BAFB5A100B8009C /* ViewController.swift */; };
-		AAEAF0692BAFB5A100B8009C /* MoneyFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0672BAFB5A100B8009C /* MoneyFlow.xcdatamodeld */; };
 		AAEAF06B2BAFB5A200B8009C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */; };
 		AAEAF06E2BAFB5A200B8009C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */; };
 		AAEAF0792BAFB5A200B8009C /* MoneyFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */; };
@@ -24,7 +38,6 @@
 		AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0912BAFB60B00B8009C /* TabBarController.swift */; };
 		AAEAF0972BAFB7EB00B8009C /* IlmirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */; };
 		AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */; };
-		AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +62,23 @@
 		9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
 		9F0E4A722BB0AA260031C3A2 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		AAD8E42F2BC1FB7C0015BE2E /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AAD8E4302BC1FB7C0015BE2E /* OperationTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTypes.swift; sourceTree = "<group>"; };
+		AAD8E4322BC1FB7C0015BE2E /* CategoriesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesManager.swift; sourceTree = "<group>"; };
+		AAD8E4342BC1FB7C0015BE2E /* AddOperationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperationViewModel.swift; sourceTree = "<group>"; };
+		AAD8E4362BC1FB7C0015BE2E /* AddOperationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperationVC.swift; sourceTree = "<group>"; };
+		AAD8E4372BC1FB7C0015BE2E /* AddOperationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperationView.swift; sourceTree = "<group>"; };
+		AAD8E43A2BC1FB7C0015BE2E /* CategoriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		AAD8E43C2BC1FB7C0015BE2E /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		AAD8E43E2BC1FB7C0015BE2E /* CategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		AAD8E43F2BC1FB7C0015BE2E /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		AAD8E4502BC312510015BE2E /* WalletOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletOperation.swift; sourceTree = "<group>"; };
+		AAD8E4562BC31CAC0015BE2E /* OperationsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsStorage.swift; sourceTree = "<group>"; };
+		AAD8E45B2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationViewSnapshotTests.swift; sourceTree = "<group>"; };
 		AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AAEAF0622BAFB5A100B8009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAEAF0682BAFB5A100B8009C /* MoneyFlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyFlow.xcdatamodel; sourceTree = "<group>"; };
 		AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEAF06D2BAFB5A200B8009C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAEAF06F2BAFB5A200B8009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +90,6 @@
 		AAEAF0912BAFB60B00B8009C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlmirViewController.swift; sourceTree = "<group>"; };
 		AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuslanViewController.swift; sourceTree = "<group>"; };
-		AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmitryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0E4A762BB0F0160031C3A2 /* Kingfisher in Frameworks */,
+				AAD8E44C2BC1FD8F0015BE2E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD8E45A2BC32D4A0015BE2E /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +128,94 @@
 				9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AAD8E42E2BC1FB7C0015BE2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E42F2BC1FB7C0015BE2E /* Category.swift */,
+				AAD8E4302BC1FB7C0015BE2E /* OperationTypes.swift */,
+				AAD8E4502BC312510015BE2E /* WalletOperation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAD8E4312BC1FB7C0015BE2E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E4322BC1FB7C0015BE2E /* CategoriesManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AAD8E4332BC1FB7C0015BE2E /* AddOperation */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E4342BC1FB7C0015BE2E /* AddOperationViewModel.swift */,
+				AAD8E4352BC1FB7C0015BE2E /* View */,
+			);
+			path = AddOperation;
+			sourceTree = "<group>";
+		};
+		AAD8E4352BC1FB7C0015BE2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E4362BC1FB7C0015BE2E /* AddOperationVC.swift */,
+				AAD8E4372BC1FB7C0015BE2E /* AddOperationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAD8E4382BC1FB7C0015BE2E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E4392BC1FB7C0015BE2E /* ViewModels */,
+				AAD8E43B2BC1FB7C0015BE2E /* Cells */,
+				AAD8E43D2BC1FB7C0015BE2E /* View */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AAD8E4392BC1FB7C0015BE2E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E43A2BC1FB7C0015BE2E /* CategoriesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAD8E43B2BC1FB7C0015BE2E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E43C2BC1FB7C0015BE2E /* CategoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AAD8E43D2BC1FB7C0015BE2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8E43E2BC1FB7C0015BE2E /* CategoriesView.swift */,
+				AAD8E43F2BC1FB7C0015BE2E /* CategoriesVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAD8E45D2BC330890015BE2E /* DmitryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */,
+				AAD8E45B2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift */,
+			);
+			path = DmitryTests;
+			sourceTree = "<group>";
+		};
+		AAD8E45E2BC330980015BE2E /* DmitryTest */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */,
+			);
+			name = DmitryTest;
 			sourceTree = "<group>";
 		};
 		AAEAF0522BAFB5A100B8009C = {
@@ -136,7 +250,6 @@
 				AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */,
 				AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */,
 				AAEAF06F2BAFB5A200B8009C /* Info.plist */,
-				AAEAF0672BAFB5A100B8009C /* MoneyFlow.xcdatamodeld */,
 				AAEAF0912BAFB60B00B8009C /* TabBarController.swift */,
 			);
 			path = MoneyFlow;
@@ -145,7 +258,7 @@
 		AAEAF0772BAFB5A200B8009C /* MoneyFlowTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */,
+				AAD8E45D2BC330890015BE2E /* DmitryTests */,
 			);
 			path = MoneyFlowTests;
 			sourceTree = "<group>";
@@ -153,7 +266,7 @@
 		AAEAF0812BAFB5A200B8009C /* MoneyFlowUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */,
+				AAD8E45E2BC330980015BE2E /* DmitryTest */,
 				AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */,
 			);
 			path = MoneyFlowUITests;
@@ -162,7 +275,11 @@
 		AAEAF0932BAFB68800B8009C /* Dmitry */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */,
+				AAD8E4332BC1FB7C0015BE2E /* AddOperation */,
+				AAD8E4382BC1FB7C0015BE2E /* Categories */,
+				AAD8E4312BC1FB7C0015BE2E /* Managers */,
+				AAD8E42E2BC1FB7C0015BE2E /* Models */,
+				AAD8E4562BC31CAC0015BE2E /* OperationsStorage.swift */,
 			);
 			path = Dmitry;
 			sourceTree = "<group>";
@@ -203,6 +320,7 @@
 			name = MoneyFlow;
 			packageProductDependencies = (
 				9F0E4A752BB0F0160031C3A2 /* Kingfisher */,
+				AAD8E44B2BC1FD8F0015BE2E /* SnapKit */,
 			);
 			productName = MoneyFlow;
 			productReference = AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */;
@@ -222,6 +340,9 @@
 				AAEAF0762BAFB5A200B8009C /* PBXTargetDependency */,
 			);
 			name = MoneyFlowTests;
+			packageProductDependencies = (
+				AAD8E4592BC32D4A0015BE2E /* SnapshotTesting */,
+			);
 			productName = MoneyFlowTests;
 			productReference = AAEAF0742BAFB5A200B8009C /* MoneyFlowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -278,6 +399,8 @@
 			mainGroup = AAEAF0522BAFB5A100B8009C;
 			packageReferences = (
 				9F0E4A742BB0F0160031C3A2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				AAD8E44A2BC1FD8F0015BE2E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AAD8E4582BC32D4A0015BE2E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = AAEAF05C2BAFB5A100B8009C /* Products */;
 			projectDirPath = "";
@@ -322,17 +445,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */,
+				AAD8E4472BC1FB7C0015BE2E /* CategoryCell.swift in Sources */,
 				AAEAF0972BAFB7EB00B8009C /* IlmirViewController.swift in Sources */,
+				AAD8E4442BC1FB7C0015BE2E /* AddOperationVC.swift in Sources */,
+				AAD8E4452BC1FB7C0015BE2E /* AddOperationView.swift in Sources */,
+				AAD8E4572BC31CAC0015BE2E /* OperationsStorage.swift in Sources */,
 				AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */,
+				AAD8E4492BC1FB7C0015BE2E /* CategoriesVC.swift in Sources */,
+				AAD8E4422BC1FB7C0015BE2E /* CategoriesManager.swift in Sources */,
+				AAD8E4512BC312510015BE2E /* WalletOperation.swift in Sources */,
 				9F0E4A702BB0A80B0031C3A2 /* MoneyTableViewCell.swift in Sources */,
+				AAD8E4482BC1FB7C0015BE2E /* CategoriesView.swift in Sources */,
 				9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */,
 				AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */,
-				AAEAF0692BAFB5A100B8009C /* MoneyFlow.xcdatamodeld in Sources */,
+				AAD8E4432BC1FB7C0015BE2E /* AddOperationViewModel.swift in Sources */,
 				AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */,
+				AAD8E4412BC1FB7C0015BE2E /* OperationTypes.swift in Sources */,
 				9F0E4A6E2BB0A5CE0031C3A2 /* MoneyTableView.swift in Sources */,
 				AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */,
-				AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */,
 				AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */,
+				AAD8E4462BC1FB7C0015BE2E /* CategoriesViewModel.swift in Sources */,
+				AAD8E4402BC1FB7C0015BE2E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEAF0792BAFB5A200B8009C /* MoneyFlowTests.swift in Sources */,
+				AAD8E45C2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +811,22 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		AAD8E44A2BC1FD8F0015BE2E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		AAD8E4582BC32D4A0015BE2E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -685,20 +835,17 @@
 			package = 9F0E4A742BB0F0160031C3A2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-/* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		AAEAF0672BAFB5A100B8009C /* MoneyFlow.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AAEAF0682BAFB5A100B8009C /* MoneyFlow.xcdatamodel */,
-			);
-			currentVersion = AAEAF0682BAFB5A100B8009C /* MoneyFlow.xcdatamodel */;
-			path = MoneyFlow.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+		AAD8E44B2BC1FD8F0015BE2E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD8E44A2BC1FD8F0015BE2E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
-/* End XCVersionGroup section */
+		AAD8E4592BC32D4A0015BE2E /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD8E4582BC32D4A0015BE2E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAEAF0532BAFB5A100B8009C /* Project object */;
 }

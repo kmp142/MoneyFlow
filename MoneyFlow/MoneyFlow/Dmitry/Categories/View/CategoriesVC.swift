@@ -7,18 +7,45 @@
 
 import Foundation
 import UIKit
+import Combine
 
 class CategoriesVC: UIViewController {
 
     let categoriesView = CategoriesView()
+    private var viewModel: CategoriesViewModelInterface?
+    private var subscriptions = Set<AnyCancellable>()
+
+    //MARK: - Initialization
+
+    init(viewModel: CategoriesViewModelInterface) {
+        super.init(nibName: nil, bundle: nil)
+        self.viewModel = viewModel
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func loadView() {
         view = categoriesView
-        view.backgroundColor = .white
-        categoriesView.updateDataSource(items: [
-            Category(name: "fsdf \(Int.random(in: 0...1000))", image: UIImage(systemName: "map")!),
-            Category(name: "fsdf \(Int.random(in: 0...1000))", image: UIImage(systemName: "map")!),
-            Category(name: "fsdf \(Int.random(in: 0...1000))", image: UIImage(systemName: "map")!)
-        ])
+    }
+
+    override func viewDidLoad() {
+        subscribeOnViewModel()
+    }
+
+    deinit {
+        subscriptions.removeAll()
+    }
+
+    //MARK: - Binding
+
+    private func subscribeOnViewModel() {
+        if let viewModel = viewModel as? CategoriesViewModel {
+            viewModel.$categories
+                .sink { categories in
+
+                }.store(in: &subscriptions)
+        }
     }
 }

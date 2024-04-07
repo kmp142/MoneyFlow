@@ -21,7 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let rVC = RuslanViewController()
         rVC.title = "ruslan"
 
-        let dVC = DmitryViewController()
+        let addOperationVM = AddOperationViewModel(storage: WalletOperationsStorage.shared)
+        let dVC = AddOperationVC(viewModel: addOperationVM)
         dVC.title = "dmitry"
 
         let iVC = IlmirViewController()
