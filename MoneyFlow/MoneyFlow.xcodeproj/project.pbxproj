@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F0E4A6E2BB0A5CE0031C3A2 /* MoneyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A6D2BB0A5CE0031C3A2 /* MoneyTableView.swift */; };
-		9F0E4A702BB0A80B0031C3A2 /* MoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */; };
 		9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A722BB0AA260031C3A2 /* Expenses.swift */; };
 		9F0E4A762BB0F0160031C3A2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F0E4A752BB0F0160031C3A2 /* Kingfisher */; };
 		9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */; };
+		9F0E4AAE2BBF390E0031C3A2 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AAD2BBF390E0031C3A2 /* MainCell.swift */; };
+		9F0E4AB02BBF3AC00031C3A2 /* MainCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AAF2BBF3AC00031C3A2 /* MainCellViewModel.swift */; };
+		9F0E4AB42BBF3C6B0031C3A2 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AB32BBF3C6B0031C3A2 /* MyViewController.swift */; };
+		9F0E4AB62BBF3FC40031C3A2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AB52BBF3FC40031C3A2 /* MainViewModel.swift */; };
+		9F0E4AB92BBF502F0031C3A2 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AB82BBF502F0031C3A2 /* Observable.swift */; };
+		9F0E4ABB2BBF56F70031C3A2 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4ABA2BBF56F70031C3A2 /* NetworkError.swift */; };
+		9F0E4ABD2BC3758F0031C3A2 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4ABC2BC3758F0031C3A2 /* EndPoint.swift */; };
+		9F0E4ABF2BC376F10031C3A2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4ABE2BC376F10031C3A2 /* Users.swift */; };
+		9F0E4AC42BC377C80031C3A2 /* URLSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AC32BC377C80031C3A2 /* URLSessions.swift */; };
+		9F0E4AC62BC379B00031C3A2 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AC52BC379B00031C3A2 /* NetworkRequest.swift */; };
+		9F0E4AC82BC37AAB0031C3A2 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AC72BC37AAB0031C3A2 /* NetworkDataFetch.swift */; };
 		AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */; };
 		AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */; };
 		AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0622BAFB5A100B8009C /* ViewController.swift */; };
@@ -22,7 +31,6 @@
 		AAEAF0832BAFB5A200B8009C /* MoneyFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */; };
 		AAEAF0852BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */; };
 		AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0912BAFB60B00B8009C /* TabBarController.swift */; };
-		AAEAF0972BAFB7EB00B8009C /* IlmirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */; };
 		AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */; };
 		AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */; };
 /* End PBXBuildFile section */
@@ -45,10 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F0E4A6D2BB0A5CE0031C3A2 /* MoneyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableView.swift; sourceTree = "<group>"; };
-		9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
 		9F0E4A722BB0AA260031C3A2 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		9F0E4AAD2BBF390E0031C3A2 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCell.swift; path = "MoneyFlow/Ilbmir/New Group/MainCell.swift"; sourceTree = SOURCE_ROOT; };
+		9F0E4AAF2BBF3AC00031C3A2 /* MainCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCellViewModel.swift; path = "MoneyFlow/Ilbmir/New Group/MainCellViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		9F0E4AB32BBF3C6B0031C3A2 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyViewController.swift; path = "MoneyFlow/Ilbmir/New Group/MyViewController.swift"; sourceTree = SOURCE_ROOT; };
+		9F0E4AB52BBF3FC40031C3A2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = "MoneyFlow/Ilbmir/New Group/MainViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		9F0E4AB82BBF502F0031C3A2 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = "MoneyFlow/Ilbmir/New Group/Observable.swift"; sourceTree = SOURCE_ROOT; };
+		9F0E4ABA2BBF56F70031C3A2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		9F0E4ABC2BC3758F0031C3A2 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		9F0E4ABE2BC376F10031C3A2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9F0E4AC32BC377C80031C3A2 /* URLSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessions.swift; sourceTree = "<group>"; };
+		9F0E4AC52BC379B00031C3A2 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		9F0E4AC72BC37AAB0031C3A2 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
 		AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +80,6 @@
 		AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowUITests.swift; sourceTree = "<group>"; };
 		AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AAEAF0912BAFB60B00B8009C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlmirViewController.swift; sourceTree = "<group>"; };
 		AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuslanViewController.swift; sourceTree = "<group>"; };
 		AAEAF09A2BAFB80B00B8009C /* DmitryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmitryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,12 +110,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F0E4A712BB0A9B90031C3A2 /* New Group */ = {
+		9F0E4AAC2BBF38D40031C3A2 /* New Group1 */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */,
-				9F0E4A6D2BB0A5CE0031C3A2 /* MoneyTableView.swift */,
-				9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */,
+				9F0E4AB72BBF50080031C3A2 /* New Group */,
+				9F0E4AAD2BBF390E0031C3A2 /* MainCell.swift */,
+				9F0E4AAF2BBF3AC00031C3A2 /* MainCellViewModel.swift */,
+				9F0E4AB32BBF3C6B0031C3A2 /* MyViewController.swift */,
+				9F0E4AB52BBF3FC40031C3A2 /* MainViewModel.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		9F0E4AB72BBF50080031C3A2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4AB82BBF502F0031C3A2 /* Observable.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9F0E4AC02BC3775D0031C3A2 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4ABC2BC3758F0031C3A2 /* EndPoint.swift */,
+				9F0E4ABA2BBF56F70031C3A2 /* NetworkError.swift */,
+				9F0E4AC52BC379B00031C3A2 /* NetworkRequest.swift */,
+				9F0E4AC72BC37AAB0031C3A2 /* NetworkDataFetch.swift */,
+			);
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		9F0E4AC12BC3777B0031C3A2 /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4ABE2BC376F10031C3A2 /* Users.swift */,
+			);
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+		9F0E4AC22BC377A70031C3A2 /* New Group4 */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4AC32BC377C80031C3A2 /* URLSessions.swift */,
+			);
+			name = "New Group4";
+			sourceTree = "<group>";
+		};
+		9F0E4AC92BC38FC60031C3A2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -145,7 +206,7 @@
 		AAEAF0772BAFB5A200B8009C /* MoneyFlowTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */,
+				9F0E4AC92BC38FC60031C3A2 /* New Group */,
 			);
 			path = MoneyFlowTests;
 			sourceTree = "<group>";
@@ -178,8 +239,11 @@
 		AAEAF0952BAFB6C700B8009C /* Ilbmir */ = {
 			isa = PBXGroup;
 			children = (
-				9F0E4A712BB0A9B90031C3A2 /* New Group */,
+				9F0E4AAC2BBF38D40031C3A2 /* New Group1 */,
 				9F0E4A722BB0AA260031C3A2 /* Expenses.swift */,
+				9F0E4AC22BC377A70031C3A2 /* New Group4 */,
+				9F0E4AC12BC3777B0031C3A2 /* New Group3 */,
+				9F0E4AC02BC3775D0031C3A2 /* New Group2 */,
 				9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */,
 			);
 			path = Ilbmir;
@@ -321,18 +385,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0E4AB92BBF502F0031C3A2 /* Observable.swift in Sources */,
+				9F0E4ABB2BBF56F70031C3A2 /* NetworkError.swift in Sources */,
 				9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */,
-				AAEAF0972BAFB7EB00B8009C /* IlmirViewController.swift in Sources */,
 				AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */,
-				9F0E4A702BB0A80B0031C3A2 /* MoneyTableViewCell.swift in Sources */,
+				9F0E4AB02BBF3AC00031C3A2 /* MainCellViewModel.swift in Sources */,
 				9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */,
+				9F0E4AB42BBF3C6B0031C3A2 /* MyViewController.swift in Sources */,
+				9F0E4AC62BC379B00031C3A2 /* NetworkRequest.swift in Sources */,
+				9F0E4ABF2BC376F10031C3A2 /* Users.swift in Sources */,
 				AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */,
 				AAEAF0692BAFB5A100B8009C /* MoneyFlow.xcdatamodeld in Sources */,
+				9F0E4ABD2BC3758F0031C3A2 /* EndPoint.swift in Sources */,
 				AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */,
-				9F0E4A6E2BB0A5CE0031C3A2 /* MoneyTableView.swift in Sources */,
 				AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */,
 				AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */,
+				9F0E4AC42BC377C80031C3A2 /* URLSessions.swift in Sources */,
 				AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */,
+				9F0E4AAE2BBF390E0031C3A2 /* MainCell.swift in Sources */,
+				9F0E4AB62BBF3FC40031C3A2 /* MainViewModel.swift in Sources */,
+				9F0E4AC82BC37AAB0031C3A2 /* NetworkDataFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +635,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,7 +654,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.itis.MoneyFlowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

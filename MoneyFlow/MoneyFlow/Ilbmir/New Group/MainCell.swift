@@ -1,14 +1,18 @@
 //
-//  MoneyTableViewCell.swift
+//  MainCell.swift
 //  MoneyFlow
 //
-//  Created by Ильмир Шарафутдинов on 24.03.2024.
+//  Created by Ильмир Шарафутдинов on 04.04.2024.
 //
 
 import UIKit
 import Kingfisher
 
-class MoneyTableViewCell: UITableViewCell {
+class MainCell: UITableViewCell {
+    
+    static var identifier: String {
+        "MainCell"
+    }
     
     let url = URL(string: "https://example.com/image.png")
     
@@ -70,10 +74,8 @@ class MoneyTableViewCell: UITableViewCell {
             moneyLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
             ])
     }
-
-}
-extension UITableViewCell {
-    static var reuseIdentifier: String {
-        return String(describing: self)
+    func setupCell (viewModel: MainCellViewModel) {
+        nameLabel.text = viewModel.nameLabel
+        moneyLabel.text = viewModel.moneyLabel
     }
 }
