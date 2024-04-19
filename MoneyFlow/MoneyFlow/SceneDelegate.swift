@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let dVC = AddOperationVC(viewModel: addOperationVM)
         dVC.title = "dmitry"
 
-        let iVC = IlmirViewController()
+        let iVC = MyViewController()
         iVC.title = "ilbmir"
 
         let tabBar = TabBarController()

@@ -9,6 +9,8 @@ import UIKit
 
 class DataBaseManager {
     
+    static let shared = DataBaseManager()
+    
     private var dataSource: [Expenses] = [Expenses(title: "Все расходы", secondTitle: "118 000"), Expenses(title: "Машина", secondTitle: "10 000"), Expenses(title: "Еда", secondTitle: "15 000"), Expenses(title: "Одежда", secondTitle: "5 000"), Expenses(title: "Другое", secondTitle: "10 000"), Expenses(title: "ЖКХ", secondTitle: "8 000"), Expenses(title: "Здоровье", secondTitle: "4 000"), Expenses(title: "Театры", secondTitle: "3 000"), Expenses(title: "Развлечения", secondTitle: "10 000"), Expenses(title: "Переводы", secondTitle: "20 000")]
     
     func getAllTasks() -> [Expenses] {
