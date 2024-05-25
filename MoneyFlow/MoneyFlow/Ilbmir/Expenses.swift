@@ -11,5 +11,5 @@ struct Expenses: Hashable, Identifiable {
     let id: UUID = UUID()
     var title: String
     var secondTitle: String
-    
+
 }

@@ -20,8 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let rVC = RuslanViewController()
         rVC.title = "ruslan"
-
-        let addOperationVM = AddOperationViewModel(storage: WalletOperationsStorage.shared)
+        
+        let defaultCategory = CategoriesManager.defaultCategory
+        let addOperationVM = AddOperationViewModel(storage: WalletOperationsStorage.shared, category: defaultCategory)
         let dVC = AddOperationVC(viewModel: addOperationVM)
         dVC.title = "dmitry"
 

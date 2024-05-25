@@ -7,21 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F0E4A6E2BB0A5CE0031C3A2 /* MoneyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A6D2BB0A5CE0031C3A2 /* MoneyTableView.swift */; };
-		9F0E4A702BB0A80B0031C3A2 /* MoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */; };
-		9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A722BB0AA260031C3A2 /* Expenses.swift */; };
 		9F0E4A762BB0F0160031C3A2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F0E4A752BB0F0160031C3A2 /* Kingfisher */; };
-		9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */; };
+		AA4D77022C021DAC005EECF3 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76F12C021DAC005EECF3 /* NetworkDataFetch.swift */; };
+		AA4D77032C021DAC005EECF3 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76F22C021DAC005EECF3 /* NetworkRequest.swift */; };
+		AA4D77042C021DAC005EECF3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76F32C021DAC005EECF3 /* NetworkError.swift */; };
+		AA4D77052C021DAC005EECF3 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76F42C021DAC005EECF3 /* EndPoint.swift */; };
+		AA4D77062C021DAC005EECF3 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76F62C021DAC005EECF3 /* Users.swift */; };
+		AA4D77082C021DAC005EECF3 /* MoneyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76F82C021DAC005EECF3 /* MoneyTableViewController.swift */; };
+		AA4D77092C021DAC005EECF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76FA2C021DAC005EECF3 /* ViewController.swift */; };
+		AA4D770A2C021DAC005EECF3 /* MainCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76FB2C021DAC005EECF3 /* MainCellViewModel.swift */; };
+		AA4D770B2C021DAC005EECF3 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76FC2C021DAC005EECF3 /* MyViewController.swift */; };
+		AA4D770C2C021DAC005EECF3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76FD2C021DAC005EECF3 /* MainViewModel.swift */; };
+		AA4D770D2C021DAC005EECF3 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76FE2C021DAC005EECF3 /* Observable.swift */; };
+		AA4D770E2C021DAC005EECF3 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D76FF2C021DAC005EECF3 /* MainCell.swift */; };
+		AA4D77102C021DAC005EECF3 /* URLSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D77012C021DAC005EECF3 /* URLSessions.swift */; };
+		AA4D77122C021DD7005EECF3 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D77112C021DD7005EECF3 /* Expenses.swift */; };
+		AA4D77142C021E18005EECF3 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D77132C021E18005EECF3 /* DataBaseManager.swift */; };
+		AA4D77162C023422005EECF3 /* SwiftUICategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D77152C023422005EECF3 /* SwiftUICategoriesView.swift */; };
 		AAD8E4402BC1FB7C0015BE2E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E42F2BC1FB7C0015BE2E /* Category.swift */; };
 		AAD8E4412BC1FB7C0015BE2E /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4302BC1FB7C0015BE2E /* OperationTypes.swift */; };
 		AAD8E4422BC1FB7C0015BE2E /* CategoriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4322BC1FB7C0015BE2E /* CategoriesManager.swift */; };
 		AAD8E4432BC1FB7C0015BE2E /* AddOperationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4342BC1FB7C0015BE2E /* AddOperationViewModel.swift */; };
 		AAD8E4442BC1FB7C0015BE2E /* AddOperationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4362BC1FB7C0015BE2E /* AddOperationVC.swift */; };
 		AAD8E4452BC1FB7C0015BE2E /* AddOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4372BC1FB7C0015BE2E /* AddOperationView.swift */; };
-		AAD8E4462BC1FB7C0015BE2E /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43A2BC1FB7C0015BE2E /* CategoriesViewModel.swift */; };
 		AAD8E4472BC1FB7C0015BE2E /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43C2BC1FB7C0015BE2E /* CategoryCell.swift */; };
-		AAD8E4482BC1FB7C0015BE2E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43E2BC1FB7C0015BE2E /* CategoriesView.swift */; };
-		AAD8E4492BC1FB7C0015BE2E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E43F2BC1FB7C0015BE2E /* CategoriesVC.swift */; };
 		AAD8E44C2BC1FD8F0015BE2E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AAD8E44B2BC1FD8F0015BE2E /* SnapKit */; };
 		AAD8E4512BC312510015BE2E /* WalletOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4502BC312510015BE2E /* WalletOperation.swift */; };
 		AAD8E4572BC31CAC0015BE2E /* OperationsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E4562BC31CAC0015BE2E /* OperationsStorage.swift */; };
@@ -29,14 +38,12 @@
 		AAD8E45C2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E45B2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift */; };
 		AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */; };
 		AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */; };
-		AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0622BAFB5A100B8009C /* ViewController.swift */; };
 		AAEAF06B2BAFB5A200B8009C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */; };
 		AAEAF06E2BAFB5A200B8009C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */; };
 		AAEAF0792BAFB5A200B8009C /* MoneyFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */; };
 		AAEAF0832BAFB5A200B8009C /* MoneyFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */; };
 		AAEAF0852BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */; };
 		AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0912BAFB60B00B8009C /* TabBarController.swift */; };
-		AAEAF0972BAFB7EB00B8009C /* IlmirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */; };
 		AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,27 +65,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F0E4A6D2BB0A5CE0031C3A2 /* MoneyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableView.swift; sourceTree = "<group>"; };
-		9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTableViewCell.swift; sourceTree = "<group>"; };
-		9F0E4A722BB0AA260031C3A2 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
-		9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		AA4D76F12C021DAC005EECF3 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		AA4D76F22C021DAC005EECF3 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		AA4D76F32C021DAC005EECF3 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		AA4D76F42C021DAC005EECF3 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		AA4D76F62C021DAC005EECF3 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		AA4D76F82C021DAC005EECF3 /* MoneyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyTableViewController.swift; sourceTree = "<group>"; };
+		AA4D76FA2C021DAC005EECF3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA4D76FB2C021DAC005EECF3 /* MainCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCellViewModel.swift; sourceTree = "<group>"; };
+		AA4D76FC2C021DAC005EECF3 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		AA4D76FD2C021DAC005EECF3 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AA4D76FE2C021DAC005EECF3 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		AA4D76FF2C021DAC005EECF3 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		AA4D77012C021DAC005EECF3 /* URLSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessions.swift; sourceTree = "<group>"; };
+		AA4D77112C021DD7005EECF3 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		AA4D77132C021E18005EECF3 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		AA4D77152C023422005EECF3 /* SwiftUICategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICategoriesView.swift; sourceTree = "<group>"; };
 		AAD8E42F2BC1FB7C0015BE2E /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AAD8E4302BC1FB7C0015BE2E /* OperationTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTypes.swift; sourceTree = "<group>"; };
 		AAD8E4322BC1FB7C0015BE2E /* CategoriesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesManager.swift; sourceTree = "<group>"; };
 		AAD8E4342BC1FB7C0015BE2E /* AddOperationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperationViewModel.swift; sourceTree = "<group>"; };
 		AAD8E4362BC1FB7C0015BE2E /* AddOperationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperationVC.swift; sourceTree = "<group>"; };
 		AAD8E4372BC1FB7C0015BE2E /* AddOperationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperationView.swift; sourceTree = "<group>"; };
-		AAD8E43A2BC1FB7C0015BE2E /* CategoriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		AAD8E43C2BC1FB7C0015BE2E /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
-		AAD8E43E2BC1FB7C0015BE2E /* CategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
-		AAD8E43F2BC1FB7C0015BE2E /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		AAD8E4502BC312510015BE2E /* WalletOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletOperation.swift; sourceTree = "<group>"; };
 		AAD8E4562BC31CAC0015BE2E /* OperationsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsStorage.swift; sourceTree = "<group>"; };
 		AAD8E45B2BC32D700015BE2E /* AddOperationViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationViewSnapshotTests.swift; sourceTree = "<group>"; };
 		AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAEAF0622BAFB5A100B8009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEAF06D2BAFB5A200B8009C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAEAF06F2BAFB5A200B8009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +103,6 @@
 		AAEAF0822BAFB5A200B8009C /* MoneyFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowUITests.swift; sourceTree = "<group>"; };
 		AAEAF0842BAFB5A200B8009C /* MoneyFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AAEAF0912BAFB60B00B8009C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlmirViewController.swift; sourceTree = "<group>"; };
 		AAEAF0982BAFB7F600B8009C /* RuslanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuslanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,12 +134,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F0E4A712BB0A9B90031C3A2 /* New Group */ = {
+		AA4D76F02C021DAC005EECF3 /* New Group2 */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAF0962BAFB7EB00B8009C /* IlmirViewController.swift */,
-				9F0E4A6D2BB0A5CE0031C3A2 /* MoneyTableView.swift */,
-				9F0E4A6F2BB0A80B0031C3A2 /* MoneyTableViewCell.swift */,
+				AA4D76F12C021DAC005EECF3 /* NetworkDataFetch.swift */,
+				AA4D76F22C021DAC005EECF3 /* NetworkRequest.swift */,
+				AA4D76F32C021DAC005EECF3 /* NetworkError.swift */,
+				AA4D76F42C021DAC005EECF3 /* EndPoint.swift */,
+			);
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		AA4D76F52C021DAC005EECF3 /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D76F62C021DAC005EECF3 /* Users.swift */,
+			);
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+		AA4D76F92C021DAC005EECF3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D76FA2C021DAC005EECF3 /* ViewController.swift */,
+				AA4D76FB2C021DAC005EECF3 /* MainCellViewModel.swift */,
+				AA4D76FC2C021DAC005EECF3 /* MyViewController.swift */,
+				AA4D76FD2C021DAC005EECF3 /* MainViewModel.swift */,
+				AA4D76FE2C021DAC005EECF3 /* Observable.swift */,
+				AA4D76FF2C021DAC005EECF3 /* MainCell.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -162,41 +198,8 @@
 			children = (
 				AAD8E4362BC1FB7C0015BE2E /* AddOperationVC.swift */,
 				AAD8E4372BC1FB7C0015BE2E /* AddOperationView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		AAD8E4382BC1FB7C0015BE2E /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				AAD8E4392BC1FB7C0015BE2E /* ViewModels */,
-				AAD8E43B2BC1FB7C0015BE2E /* Cells */,
-				AAD8E43D2BC1FB7C0015BE2E /* View */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		AAD8E4392BC1FB7C0015BE2E /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				AAD8E43A2BC1FB7C0015BE2E /* CategoriesViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		AAD8E43B2BC1FB7C0015BE2E /* Cells */ = {
-			isa = PBXGroup;
-			children = (
 				AAD8E43C2BC1FB7C0015BE2E /* CategoryCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		AAD8E43D2BC1FB7C0015BE2E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AAD8E43E2BC1FB7C0015BE2E /* CategoriesView.swift */,
-				AAD8E43F2BC1FB7C0015BE2E /* CategoriesVC.swift */,
+				AA4D77152C023422005EECF3 /* SwiftUICategoriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,7 +249,6 @@
 				AAEAF0932BAFB68800B8009C /* Dmitry */,
 				AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */,
 				AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */,
-				AAEAF0622BAFB5A100B8009C /* ViewController.swift */,
 				AAEAF06A2BAFB5A200B8009C /* Assets.xcassets */,
 				AAEAF06C2BAFB5A200B8009C /* LaunchScreen.storyboard */,
 				AAEAF06F2BAFB5A200B8009C /* Info.plist */,
@@ -276,7 +278,6 @@
 			isa = PBXGroup;
 			children = (
 				AAD8E4332BC1FB7C0015BE2E /* AddOperation */,
-				AAD8E4382BC1FB7C0015BE2E /* Categories */,
 				AAD8E4312BC1FB7C0015BE2E /* Managers */,
 				AAD8E42E2BC1FB7C0015BE2E /* Models */,
 				AAD8E4562BC31CAC0015BE2E /* OperationsStorage.swift */,
@@ -295,9 +296,13 @@
 		AAEAF0952BAFB6C700B8009C /* Ilbmir */ = {
 			isa = PBXGroup;
 			children = (
-				9F0E4A712BB0A9B90031C3A2 /* New Group */,
-				9F0E4A722BB0AA260031C3A2 /* Expenses.swift */,
-				9F0E4A772BB13DF30031C3A2 /* DataBaseManager.swift */,
+				AA4D76F82C021DAC005EECF3 /* MoneyTableViewController.swift */,
+				AA4D76F92C021DAC005EECF3 /* New Group */,
+				AA4D76F02C021DAC005EECF3 /* New Group2 */,
+				AA4D76F52C021DAC005EECF3 /* New Group3 */,
+				AA4D77012C021DAC005EECF3 /* URLSessions.swift */,
+				AA4D77112C021DD7005EECF3 /* Expenses.swift */,
+				AA4D77132C021E18005EECF3 /* DataBaseManager.swift */,
 			);
 			path = Ilbmir;
 			sourceTree = "<group>";
@@ -444,28 +449,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */,
+				AA4D77142C021E18005EECF3 /* DataBaseManager.swift in Sources */,
+				AA4D77122C021DD7005EECF3 /* Expenses.swift in Sources */,
+				AA4D77162C023422005EECF3 /* SwiftUICategoriesView.swift in Sources */,
 				AAD8E4472BC1FB7C0015BE2E /* CategoryCell.swift in Sources */,
-				AAEAF0972BAFB7EB00B8009C /* IlmirViewController.swift in Sources */,
 				AAD8E4442BC1FB7C0015BE2E /* AddOperationVC.swift in Sources */,
+				AA4D770A2C021DAC005EECF3 /* MainCellViewModel.swift in Sources */,
 				AAD8E4452BC1FB7C0015BE2E /* AddOperationView.swift in Sources */,
+				AA4D770C2C021DAC005EECF3 /* MainViewModel.swift in Sources */,
+				AA4D770B2C021DAC005EECF3 /* MyViewController.swift in Sources */,
 				AAD8E4572BC31CAC0015BE2E /* OperationsStorage.swift in Sources */,
-				AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */,
-				AAD8E4492BC1FB7C0015BE2E /* CategoriesVC.swift in Sources */,
+				AA4D77032C021DAC005EECF3 /* NetworkRequest.swift in Sources */,
 				AAD8E4422BC1FB7C0015BE2E /* CategoriesManager.swift in Sources */,
+				AA4D77042C021DAC005EECF3 /* NetworkError.swift in Sources */,
+				AA4D770E2C021DAC005EECF3 /* MainCell.swift in Sources */,
 				AAD8E4512BC312510015BE2E /* WalletOperation.swift in Sources */,
-				9F0E4A702BB0A80B0031C3A2 /* MoneyTableViewCell.swift in Sources */,
-				AAD8E4482BC1FB7C0015BE2E /* CategoriesView.swift in Sources */,
-				9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */,
 				AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */,
 				AAD8E4432BC1FB7C0015BE2E /* AddOperationViewModel.swift in Sources */,
 				AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */,
+				AA4D77062C021DAC005EECF3 /* Users.swift in Sources */,
 				AAD8E4412BC1FB7C0015BE2E /* OperationTypes.swift in Sources */,
-				9F0E4A6E2BB0A5CE0031C3A2 /* MoneyTableView.swift in Sources */,
 				AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */,
 				AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */,
-				AAD8E4462BC1FB7C0015BE2E /* CategoriesViewModel.swift in Sources */,
+				AA4D77092C021DAC005EECF3 /* ViewController.swift in Sources */,
+				AA4D77082C021DAC005EECF3 /* MoneyTableViewController.swift in Sources */,
+				AA4D770D2C021DAC005EECF3 /* Observable.swift in Sources */,
+				AA4D77052C021DAC005EECF3 /* EndPoint.swift in Sources */,
 				AAD8E4402BC1FB7C0015BE2E /* Category.swift in Sources */,
+				AA4D77102C021DAC005EECF3 /* URLSessions.swift in Sources */,
+				AA4D77022C021DAC005EECF3 /* NetworkDataFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

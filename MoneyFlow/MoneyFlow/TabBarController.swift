@@ -39,7 +39,8 @@ extension TabBarController: UITabBarControllerDelegate {
 
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         if viewController is AddOperationVC {
-            let addOperationVM = AddOperationViewModel(storage: WalletOperationsStorage.shared)
+            let defaultCategory = CategoriesManager.defaultCategory
+            let addOperationVM = AddOperationViewModel(storage: WalletOperationsStorage.shared, category: defaultCategory)
             let addOperationVC = AddOperationVC(viewModel: addOperationVM)
             tabBarController.present(addOperationVC, animated: true)
             return false

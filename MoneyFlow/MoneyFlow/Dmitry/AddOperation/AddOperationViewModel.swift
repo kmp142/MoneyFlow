@@ -9,18 +9,25 @@ import Foundation
 
 protocol AddOperationViewModelInterface {
     func saveOperation(with type: OperationType, quantity: Double)
+    func setCurrentCategory(_ category: Category)
 }
 
 class AddOperationViewModel: AddOperationViewModelInterface {
 
-    let storage: OperationsStorageInterface?
+    private let storage: OperationsStorageInterface?
+    @Published var category: Category
 
-    init(storage: OperationsStorageInterface?) {
+    init(storage: OperationsStorageInterface, category: Category) {
         self.storage = storage
+        self.category = category
     }
 
     func saveOperation(with type: OperationType, quantity: Double) {
         let operation = WalletOperation(type: type, quantity: quantity)
         storage?.saveOperations(operations: [operation])
+    }
+
+    func setCurrentCategory(_ category: Category) {
+        self.category = category
     }
 }

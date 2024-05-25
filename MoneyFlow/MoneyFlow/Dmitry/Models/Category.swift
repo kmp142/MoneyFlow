@@ -8,7 +8,8 @@
 import Foundation
 import UIKit
 
-struct Category: Hashable {
+struct Category: Hashable, Identifiable {
+    var id: UUID
     var name: String
     var image: UIImage
     var subcategories: [Category]

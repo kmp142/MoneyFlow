@@ -10,8 +10,19 @@ import XCTest
 
 final class MoneyFlowTests: XCTestCase {
 
+    func areEqual<T: Equatable>(_ value1: T, _ value2: T) -> Bool {
+        return value1 == value2
+    }
+
     let storage = WalletOperationsStorage.shared
-    lazy var addOperationViewModel = AddOperationViewModel(storage: storage)
+    lazy var addOperationViewModel = AddOperationViewModel(storage: storage, category: CategoriesManager.defaultCategory)
+
+    func test_generic_function() {
+        XCTAssertEqual(true, areEqual<Int>(1, 1))
+        XCTAssertEqual(false, areEqual<Int>(1, 2))
+        XCTAssertEqual(true, areEqual<Int>("abc", "abc"))
+        XCTAssertEqual(false, areEqual<Int>("abc", "bgr"))
+    }
 
     func test_operation_saving() {
         addOperationViewModel.saveOperation(with: .expense, quantity: 100)

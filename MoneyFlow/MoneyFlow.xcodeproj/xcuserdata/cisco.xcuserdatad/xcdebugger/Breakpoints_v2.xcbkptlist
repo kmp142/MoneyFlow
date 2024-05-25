@@ -20,5 +20,180 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "107E6998-4B45-4EA2-A508-AF4431DB50FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "configureCell(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "107E6998-4B45-4EA2-A508-AF4431DB50FF - 663885022ef9e7ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyFlow.CategoryCell.configureCell(category: MoneyFlow.Category) -&gt; ()"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "107E6998-4B45-4EA2-A508-AF4431DB50FF - 663885022ef9e7ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyFlow.CategoryCell.configureCell(category: MoneyFlow.Category) -&gt; ()"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B53F6BEB-9FDD-40B9-BEA6-4C6B5CB2904E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "setupConstraints()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B53F6BEB-9FDD-40B9-BEA6-4C6B5CB2904E - f834cf3cd77a710e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in MoneyFlow.CategoryCell.setupConstraints() -&gt; ()"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "B53F6BEB-9FDD-40B9-BEA6-4C6B5CB2904E - 431716aff73961ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyFlow.CategoryCell.setupConstraints() -&gt; ()"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "B53F6BEB-9FDD-40B9-BEA6-4C6B5CB2904E - f834cf3cd77a710e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in MoneyFlow.CategoryCell.setupConstraints() -&gt; ()"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A4EC995-0D7D-4EBA-9F0D-E68F8B56E44D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "init(style:reuseIdentifier:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A4EC995-0D7D-4EBA-9F0D-E68F8B56E44D - 75bfc7f30a15ac40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyFlow.CategoryCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; MoneyFlow.CategoryCell"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "5A4EC995-0D7D-4EBA-9F0D-E68F8B56E44D - 75bfc7f30a15ac40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyFlow.CategoryCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; MoneyFlow.CategoryCell"
+                  moduleName = "MoneyFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cisco/Desktop/MoneyFlow/MoneyFlow/MoneyFlow/MoneyFlow/Dmitry/Categories/Cells/CategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1740E327-3A22-48C2-9AB4-1BD5FD0A90D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyFlow/Dmitry/AddOperation/AddOperationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setCurrentCategory(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
