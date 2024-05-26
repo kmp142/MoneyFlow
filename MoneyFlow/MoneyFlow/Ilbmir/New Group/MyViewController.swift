@@ -3,33 +3,34 @@
 //  MoneyFlow
 //
 //  Created by Ильмир Шарафутдинов on 04.04.2024.
-//
+
 
 import UIKit
 import Combine
 
 class MyViewController: UIViewController {
-    
+
     lazy var tableView = {
         let table = UITableView()
         table.translatesAutoresizingMaskIntoConstraints = false
         table.separatorStyle = .none
         table.register(MainCell.self, forCellReuseIdentifier: MainCell.identifier)
         table.estimatedRowHeight = 200
-        
+
         return table
     }()
+    
     let activityIndicator = UIActivityIndicatorView()
-    
+
     var viewModel = MainViewModel()
-    
+
     var cellDataSource = [MainCellViewModel]()
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         viewModel.getUsers()
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
@@ -38,20 +39,38 @@ class MyViewController: UIViewController {
         setupConstraints()
         setupTableView()
         bindViewModel()
+        setupButton()
     }
     
+    private func setupButton() {
+        let swiftUIButton = UIButton(type: .system)
+        swiftUIButton.setTitle("Все Расходы", for: .normal)
+        swiftUIButton.backgroundColor = .blue
+        swiftUIButton.setTitleColor(.white, for: .normal)
+        swiftUIButton.layer.cornerRadius = 5
+
+        swiftUIButton.translatesAutoresizingMaskIntoConstraints = false
+        swiftUIButton.addTarget(self, action: #selector(openSwiftUI), for: .touchUpInside)
+        view.addSubview(swiftUIButton)
+
+        NSLayoutConstraint.activate([
+           swiftUIButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+           swiftUIButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+        }
+    
+
     private func setupSubviews() {
         view.addSubview(tableView)
         view.addSubview(activityIndicator)
     }
-    
+
     private func setupLayouts() {
         view.backgroundColor = .white
     }
-    
-    
+
     private var cancellables = Set<AnyCancellable>()
-       
+
     private func bindViewModel() {
             // Привязка isLoading
             viewModel.$isLoading.sink { [weak self] isLoading in
@@ -62,14 +81,14 @@ class MyViewController: UIViewController {
                     self.activityIndicator.stopAnimating()
                 }
             }.store(in: &cancellables)
-            
+
             // Привязка cellDataSource
             viewModel.$cellDataSource.sink { [weak self] cellDataSource in
                 self?.cellDataSource = cellDataSource
                 self?.reloadTableView()
             }.store(in: &cancellables)
         }
-    
+
 //    private func bindViewModel() {
 //        viewModel.isLoading.bind { [weak self] isLoading in
 //            guard let self, let isLoading else { return }
@@ -83,7 +102,7 @@ class MyViewController: UIViewController {
 //            reloadTableView()
 //        }
 //    }
-    
+
     private func setupConstraints() {
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 250),
@@ -94,10 +113,13 @@ class MyViewController: UIViewController {
             activityIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
     }
+    @objc private func openSwiftUI() {
+        let swiftUIViewController = SwiftUIViewController()
+        present(swiftUIViewController, animated: true, completion: nil)
+    }
 }
-
 extension MyViewController: UITableViewDataSource, UITableViewDelegate {
-    
+
     func reloadTableView() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
@@ -113,7 +135,7 @@ extension MyViewController: UITableViewDataSource, UITableViewDelegate {
     func registerCell() {
         tableView.register(MainCell.self, forCellReuseIdentifier: MainCell.identifier)
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         viewModel.numbersOfRows(section)
     }
@@ -130,11 +152,12 @@ extension MyViewController: UITableViewDataSource, UITableViewDelegate {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: MainCell.identifier, for: indexPath) as? MainCell else { return UITableViewCell() }
         let cellViewModel = cellDataSource[indexPath.row]
         cell.setupCell(viewModel: cellViewModel)
-        
+
         return cell
     }
-    
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         60
     }
 }
+

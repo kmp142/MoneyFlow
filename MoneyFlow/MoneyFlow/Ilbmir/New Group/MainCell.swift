@@ -74,6 +74,7 @@ class MainCell: UITableViewCell {
             moneyLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
             ])
     }
+    
     func setupCell (viewModel: MainCellViewModel) {
         nameLabel.text = viewModel.nameLabel
         moneyLabel.text = viewModel.moneyLabel
