@@ -31,6 +31,7 @@ class MainViewModel {
     }
     
     var userValidationResultBlock: ((Result<Expenses, Error>) -> Void)?
+    
     func numbersOfRows(_ sections: Int) -> Int {
         dataSource?.count ?? 0
     }

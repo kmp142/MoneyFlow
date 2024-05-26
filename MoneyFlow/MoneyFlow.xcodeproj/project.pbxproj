@@ -21,6 +21,12 @@
 		9F0E4AC42BC377C80031C3A2 /* URLSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AC32BC377C80031C3A2 /* URLSessions.swift */; };
 		9F0E4AC62BC379B00031C3A2 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AC52BC379B00031C3A2 /* NetworkRequest.swift */; };
 		9F0E4AC82BC37AAB0031C3A2 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4AC72BC37AAB0031C3A2 /* NetworkDataFetch.swift */; };
+		9F2D9FD62C03B7B10044EE80 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D9FD52C03B7B10044EE80 /* Expense.swift */; };
+		9F2D9FD82C03B80A0044EE80 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D9FD72C03B80A0044EE80 /* ExpenseViewModel.swift */; };
+		9FEAC8842C03BE0000ED8F9F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAC8832C03BE0000ED8F9F /* DetailsView.swift */; };
+		9FEAC8862C03C5BE00ED8F9F /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAC8852C03C5BE00ED8F9F /* UIKitView.swift */; };
+		9FEAC88A2C03C63800ED8F9F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAC8892C03C63800ED8F9F /* MainView.swift */; };
+		9FEAC88C2C03C90D00ED8F9F /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAC88B2C03C90D00ED8F9F /* SwiftUIViewController.swift */; };
 		AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */; };
 		AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */; };
 		AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAF0622BAFB5A100B8009C /* ViewController.swift */; };
@@ -66,6 +72,12 @@
 		9F0E4AC32BC377C80031C3A2 /* URLSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessions.swift; sourceTree = "<group>"; };
 		9F0E4AC52BC379B00031C3A2 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		9F0E4AC72BC37AAB0031C3A2 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		9F2D9FD52C03B7B10044EE80 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		9F2D9FD72C03B80A0044EE80 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		9FEAC8832C03BE0000ED8F9F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9FEAC8852C03C5BE00ED8F9F /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		9FEAC8892C03C63800ED8F9F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9FEAC88B2C03C90D00ED8F9F /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
 		AAEAF05B2BAFB5A100B8009C /* MoneyFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAF05E2BAFB5A100B8009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEAF0602BAFB5A100B8009C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +125,7 @@
 		9F0E4AAC2BBF38D40031C3A2 /* New Group1 */ = {
 			isa = PBXGroup;
 			children = (
+				9F2D9FD12C03B5EE0044EE80 /* New Group5 */,
 				9F0E4AB72BBF50080031C3A2 /* New Group */,
 				9F0E4AAD2BBF390E0031C3A2 /* MainCell.swift */,
 				9F0E4AAF2BBF3AC00031C3A2 /* MainCellViewModel.swift */,
@@ -163,6 +176,19 @@
 				AAEAF0782BAFB5A200B8009C /* MoneyFlowTests.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9F2D9FD12C03B5EE0044EE80 /* New Group5 */ = {
+			isa = PBXGroup;
+			children = (
+				9F2D9FD52C03B7B10044EE80 /* Expense.swift */,
+				9F2D9FD72C03B80A0044EE80 /* ExpenseViewModel.swift */,
+				9FEAC8832C03BE0000ED8F9F /* DetailsView.swift */,
+				9FEAC8852C03C5BE00ED8F9F /* UIKitView.swift */,
+				9FEAC8892C03C63800ED8F9F /* MainView.swift */,
+				9FEAC88B2C03C90D00ED8F9F /* SwiftUIViewController.swift */,
+			);
+			path = "New Group5";
 			sourceTree = "<group>";
 		};
 		AAEAF0522BAFB5A100B8009C = {
@@ -385,22 +411,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2D9FD62C03B7B10044EE80 /* Expense.swift in Sources */,
 				9F0E4AB92BBF502F0031C3A2 /* Observable.swift in Sources */,
 				9F0E4ABB2BBF56F70031C3A2 /* NetworkError.swift in Sources */,
 				9F0E4A732BB0AA260031C3A2 /* Expenses.swift in Sources */,
 				AAEAF0632BAFB5A100B8009C /* ViewController.swift in Sources */,
+				9FEAC8842C03BE0000ED8F9F /* DetailsView.swift in Sources */,
 				9F0E4AB02BBF3AC00031C3A2 /* MainCellViewModel.swift in Sources */,
 				9F0E4A782BB13DF30031C3A2 /* DataBaseManager.swift in Sources */,
+				9FEAC88C2C03C90D00ED8F9F /* SwiftUIViewController.swift in Sources */,
 				9F0E4AB42BBF3C6B0031C3A2 /* MyViewController.swift in Sources */,
 				9F0E4AC62BC379B00031C3A2 /* NetworkRequest.swift in Sources */,
 				9F0E4ABF2BC376F10031C3A2 /* Users.swift in Sources */,
 				AAEAF05F2BAFB5A100B8009C /* AppDelegate.swift in Sources */,
 				AAEAF0692BAFB5A100B8009C /* MoneyFlow.xcdatamodeld in Sources */,
 				9F0E4ABD2BC3758F0031C3A2 /* EndPoint.swift in Sources */,
+				9FEAC8862C03C5BE00ED8F9F /* UIKitView.swift in Sources */,
 				AAEAF0992BAFB7F600B8009C /* RuslanViewController.swift in Sources */,
 				AAEAF0922BAFB60B00B8009C /* TabBarController.swift in Sources */,
 				AAEAF09B2BAFB80B00B8009C /* DmitryViewController.swift in Sources */,
+				9FEAC88A2C03C63800ED8F9F /* MainView.swift in Sources */,
 				9F0E4AC42BC377C80031C3A2 /* URLSessions.swift in Sources */,
+				9F2D9FD82C03B80A0044EE80 /* ExpenseViewModel.swift in Sources */,
 				AAEAF0612BAFB5A100B8009C /* SceneDelegate.swift in Sources */,
 				9F0E4AAE2BBF390E0031C3A2 /* MainCell.swift in Sources */,
 				9F0E4AB62BBF3FC40031C3A2 /* MainViewModel.swift in Sources */,

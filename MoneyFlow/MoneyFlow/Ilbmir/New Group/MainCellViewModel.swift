@@ -16,5 +16,4 @@ class MainCellViewModel {
         self.nameLabel = users.name
         self.moneyLabel = users.email
     }
-    
 }
